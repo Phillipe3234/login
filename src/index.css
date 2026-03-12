@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0a0a0a;
+  --text-primary: #ffffff;
+  --accent-gold: #d4af37;
+  --accent-wine: #800020;
+  --accent-blue: #0047ab;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(ellipse at 20% 20%, rgba(128, 0, 32, 0.25) 0%, transparent 40%),
+              radial-gradient(ellipse at 80% 80%, rgba(0, 71, 171, 0.25) 0%, transparent 40%),
+              radial-gradient(ellipse at 50% 50%, rgba(212, 175, 55, 0.15) 0%, transparent 50%),
+              var(--bg-primary);
+  background-attachment: fixed;
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+/* Estilo do Card de Vidro (Glassmorphism) */
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #d4af37, #a67c00);
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
+}
