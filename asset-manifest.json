@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/login/static/css/main.d50f273d.css",
+    "main.js": "/login/static/js/main.1e2367f0.js",
+    "static/media/logo_fsjpii.jpg": "/login/static/media/logo_fsjpii.b40fa14175881ebc6d5f.jpg",
+    "index.html": "/login/index.html",
+    "main.d50f273d.css.map": "/login/static/css/main.d50f273d.css.map",
+    "main.1e2367f0.js.map": "/login/static/js/main.1e2367f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d50f273d.css",
+    "static/js/main.1e2367f0.js"
+  ]
+}
